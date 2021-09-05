@@ -1,7 +1,26 @@
+@import url('https://fonts.googleapis.com/css?family=Press Start 2P|Ruslan Display|Ubuntu|Lato');
 * {
-    font-size: 110%;
     overflow-x: auto;
 }
+#index {
+    background-image: url("images/backgrounds/warped-forest-0.png");
+}
+#mods {
+    background-image: url("images/backgrounds/warped-forest-2.png");
+}
+#hoard {
+    background-image: url("images/backgrounds/warped-forest-1.png");
+}
+
+.header {
+    background-color: darkturquoise;
+    width: 100%;
+}
+.sticky {
+    position: fixed;
+    top: 0;
+}
+
 .full-width {
     text-align: center;
     width: 100%;
@@ -17,6 +36,13 @@
     margin-left: auto;
     margin-right: auto;
 }
+.narrow-center-link {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: Lato, sans-serif;
+    font-size: 200%;
+}
 .wide-center {
     text-align: center;
     width: 80%;
@@ -26,6 +52,26 @@
 .left-align {
     text-align: left;
     margin-left: 0%;
+}
+.title {
+    font-family: "Press Start 2P", fantasy;
+    font-size: 400%;
+    color: indigo;
+    text-align: center;
+}
+.heading {
+    font-family: "Press Start 2P", fantasy;
+    font-size: 250%;
+    color: mediumpurple;
+}
+.text {
+    font-family: Ubuntu, sans-serif;
+    font-size: 200%;
+    color: azure;
+}
+.link {
+    font-family: Lato, sans-serif;
+    font-size: 200%;
 }
 /*td {
     border: 2px solid;
