@@ -1,19 +1,25 @@
 * {
-    text-align: center;
     font-size: 110%;
     overflow-x: auto;
 }
 .full-width {
+    text-align: center;
     width: 100%;
 }
 .center {
+    text-align: center;
     margin-left: auto;
     margin-right: auto;
 }
 .wide-center {
+    text-align: center;
     width: 80%;
     margin-left: auto;
     margin-right: auto;
+}
+.left-align {
+    text-align: left;
+    margin-left: 0%;
 }
 /*td {
     border: 2px solid;
