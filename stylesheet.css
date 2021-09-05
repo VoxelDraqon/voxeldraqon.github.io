@@ -10,6 +10,12 @@
     text-align: center;
     margin-left: auto;
     margin-right: auto;
+    width: 60%;
+}
+.narrow-center {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
 }
 .wide-center {
     text-align: center;
