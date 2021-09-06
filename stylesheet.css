@@ -11,12 +11,41 @@
 #hoard {
     background-image: url("images/backgrounds/warped-forest-1.png");
 }
+#pyralignment {
+    background-image: url("images/backgrounds/warped-forest-6.png");
+}
+#coined-terms {
+    background-image: url("images/backgrounds/warped-forest-5.png");
+}
+#flags {
+    background-image: url("images/backgrounds/warped-forest-3.png");
+}
+
+#index-content {
+    margin-top: 200px;
+}
+#mods-content {
+    margin-top: 200px;
+}
+#hoard-content {
+    margin-top: 200px;
+}
+#pyralignment-content {
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 200px;
+}
+#coined-terms-content {
+    margin-top: 200px;
+}
+#flags-content {
+    margin-top: 200px;
+    padding-top: 200px;
+}
 
 .header {
     background-color: darkturquoise;
     width: 100%;
-}
-.sticky {
     position: fixed;
     top: 0;
 }
@@ -42,6 +71,7 @@
     margin-right: auto;
     font-family: Lato, sans-serif;
     font-size: 200%;
+    text-shadow: 2px 2px 3px white;
 }
 .wide-center {
     text-align: center;
@@ -53,25 +83,60 @@
     text-align: left;
     margin-left: 0%;
 }
-.title {
+h1 {
     font-family: "Press Start 2P", fantasy;
     font-size: 400%;
     color: indigo;
     text-align: center;
+    text-shadow: 6px 6px 10px white;
+}
+h2 {
+    font-family: "Press Start 2P", fantasy;
+    font-size: 250%;
+    color: mediumpurple;
+    text-shadow: 3px 3px 6px black;
 }
 .heading {
     font-family: "Press Start 2P", fantasy;
     font-size: 250%;
     color: mediumpurple;
+    text-shadow: 3px 3px 6px black;
+}
+h3 {
+    font-family: "Press Start 2P", fantasy;
+    font-size: 220%;
+    color: mediumpurple;
+    text-shadow: 3px 3px 6px black;
+}
+.small-heading {
+    font-family: "Press Start 2P", fantasy;
+    font-size: 220%;
+    color: mediumpurple;
+    text-shadow: 3px 3px 6px black;
+}
+h4 {
+    font-family: "Press Start 2P", fantasy;
+    font-size: 200%;
+    color: mediumpurple;
+    text-shadow: 3px 3px 6px black;
+}
+
+p {
+    font-family: Ubuntu, sans-serif;
+    font-size: 200%;
+    color: azure;
+    text-shadow: 2px 2px 5px black;
 }
 .text {
     font-family: Ubuntu, sans-serif;
     font-size: 200%;
     color: azure;
+    text-shadow: 2px 2px 5px black;
 }
 .link {
     font-family: Lato, sans-serif;
     font-size: 200%;
+    text-shadow: 2px 2px 3px white;
 }
 /*td {
     border: 2px solid;
