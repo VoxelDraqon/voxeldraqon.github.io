@@ -142,12 +142,12 @@ p {
 
 
 /* Remove default bullets */
-ul, #gender-tree {
+ul, #gender-tree, #orientation-tree {
     list-style-type: none;
   }
   
   /* Remove margins and padding from the parent ul */
-  #gender-tree {
+  #gender-tree, #orientation-tree {
     margin: 0;
     padding: 0;
   }
