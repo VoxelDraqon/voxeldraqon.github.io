@@ -8,9 +8,6 @@
 #mods {
     background-image: url("images/backgrounds/warped-forest-2.png");
 }
-#collection {
-    background-image: url("images/backgrounds/warped-forest-1.png");
-}
 #pyralignment {
     background-image: url("images/backgrounds/warped-forest-6.png");
 }
@@ -25,9 +22,6 @@
     margin-top: 200px;
 }
 #mods-content {
-    margin-top: 200px;
-}
-#collection-content {
     margin-top: 200px;
 }
 #pyralignment-content {
@@ -138,45 +132,3 @@ p {
     font-size: 200%;
     text-shadow: 2px 2px 3px white;
 }
-
-
-
-/* Remove default bullets */
-ul, #gender-tree, #orientation-tree {
-    list-style-type: none;
-  }
-  
-  /* Remove margins and padding from the parent ul */
-  #gender-tree, #orientation-tree {
-    margin: 0;
-    padding: 0;
-  }
-  
-  /* Style the caret/arrow */
-  .caret {
-    cursor: pointer;
-    user-select: none; /* Prevent text selection */
-  }
-  
-  /* Create the caret/arrow with a unicode, and style it */
-  .caret::before {
-    content: "\25B6";
-    color: black;
-    display: inline-block;
-    margin-right: 6px;
-  }
-  
-  /* Rotate the caret/arrow icon when clicked on (using JavaScript) */
-  .caret-down::before {
-    transform: rotate(90deg);
-  }
-  
-  /* Hide the nested list */
-  .nested {
-    display: none;
-  }
-  
-  /* Show the nested list when the user clicks on the caret/arrow (with JavaScript) */
-  .active {
-    display: block;
-  } 
