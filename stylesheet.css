@@ -57,14 +57,16 @@
     text-align: center;
     margin-left: auto;
     margin-right: auto;
+    font-size: 200%;
 }
 .narrow-center-link {
     text-align: center;
     margin-left: auto;
     margin-right: auto;
+    color: azure;
     font-family: Lato, sans-serif;
     font-size: 200%;
-    text-shadow: 2px 2px 3px white;
+    text-shadow: 2px 2px 3px black;
 }
 .wide-center {
     text-align: center;
@@ -129,6 +131,15 @@ p {
 }
 .link {
     font-family: Lato, sans-serif;
+    color: azure;
+    text-shadow: 2px 2px 3px black;
+    font-weight: bolder;
+}
+
+.tlink {
+    font-family: Lato, sans-serif;
     font-size: 200%;
-    text-shadow: 2px 2px 3px white;
+    color: azure;
+    text-shadow: 2px 2px 3px black;
+    font-weight: bolder;
 }
