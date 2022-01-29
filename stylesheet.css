@@ -143,3 +143,9 @@ p {
     text-shadow: 2px 2px 3px black;
     font-weight: bolder;
 }
+th {
+    font-family: Ubuntu, sans-serif;
+    font-size: 200%;
+    color: azure;
+    text-shadow: 2px 2px 5px black;
+}
