@@ -1,4 +1,28 @@
 @import url('https://fonts.googleapis.com/css?family=Press Start 2P|Ruslan Display|Ubuntu|Lato');
+@font-face {
+    font-family: "Times New Bastard";
+    src: url(fonts/TimesNewBastard-RegularWeb.ttf);
+    font-feature-settings: "kern" on, "liga" on;
+    text-rendering: optimizeLegibility;
+}
+@font-face {
+    font-family: "Times New Bastard Bold";
+    src: url(fonts/TimesNewBastard-BoldWeb.ttf);
+    font-feature-settings: "kern" on, "liga" on;
+    text-rendering: optimizeLegibility;
+}
+@font-face {
+    font-family: "Times New Bastard Italic";
+    src: url(fonts/TimesNewBastard-ItalicWeb.ttf);
+    font-feature-settings: "kern" on, "liga" on;
+    text-rendering: optimizeLegibility;
+}
+@font-face {
+    font-family: "Times New Bold Italic";
+    src: url(fonts/TimesNewBastard-BoldItalicWeb.ttf);
+    font-feature-settings: "kern" on, "liga" on;
+    text-rendering: optimizeLegibility;
+}
 * {
     overflow-x: auto;
 }
@@ -17,6 +41,9 @@
 #flags {
     background-image: url("images/backgrounds/warped-forest-3.png");
 }
+#secret-essay {
+    background-image: url("images/backgrounds/warped-forest-1.png");
+}
 
 #index-content {
     margin-top: 200px;
@@ -33,6 +60,9 @@
     margin-top: 200px;
 }
 #flags-content {
+    margin-top: 200px;
+}
+#secret-essay-content {
     margin-top: 200px;
 }
 
