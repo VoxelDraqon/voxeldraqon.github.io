@@ -1,25 +1,25 @@
 @import url('https://fonts.googleapis.com/css?family=Press Start 2P|Ruslan Display|Ubuntu|Lato');
 @font-face {
     font-family: "Times New Bastard";
-    src: url(fonts/TimesNewBastard-RegularWeb.ttf);
+    src: url('fonts/TimesNewBastard-RegularWeb.woff');
     font-feature-settings: "kern" on, "liga" on;
     text-rendering: optimizeLegibility;
 }
 @font-face {
     font-family: "Times New Bastard Bold";
-    src: url(fonts/TimesNewBastard-BoldWeb.ttf);
+    src: url('fonts/TimesNewBastard-BoldWeb.woff');
     font-feature-settings: "kern" on, "liga" on;
     text-rendering: optimizeLegibility;
 }
 @font-face {
     font-family: "Times New Bastard Italic";
-    src: url(fonts/TimesNewBastard-ItalicWeb.ttf);
+    src: url('fonts/TimesNewBastard-ItalicWeb.woff');
     font-feature-settings: "kern" on, "liga" on;
     text-rendering: optimizeLegibility;
 }
 @font-face {
     font-family: "Times New Bold Italic";
-    src: url(fonts/TimesNewBastard-BoldItalicWeb.ttf);
+    src: url('fonts/TimesNewBastard-BoldItalicWeb.woff');
     font-feature-settings: "kern" on, "liga" on;
     text-rendering: optimizeLegibility;
 }
